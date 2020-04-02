@@ -1,0 +1,45 @@
+alert ("hello look after your pet!")
+
+function nameChange() {
+  document.getElementById("naming").innerHTML = "Fred";
+  //show name
+  document.getElementById("nameChange").style.display="none";
+    //hide naming button
+}
+
+let feed=5
+let play=5
+let sleep=5
+
+function clickedFeedButton() {
+  feed +=3
+  sleep -=1
+  alert("Yum!")
+  // Increase pet feed
+  // Decrease pet sleep
+
+  
+}
+
+function clickedPlayButton() {
+  play +=3
+  sleep -=3
+  feed -=1
+  alert("Yay!")
+  // Increase pet play
+  // Decrease pet sleep
+  // Decrease pet feed
+  
+}
+
+function clickedSleepButton() {
+  sleep +=3
+  feed -=2
+  alert("ZZZ!")
+  // Decrease pet happiness
+  // Decrease pet weight
+  
+}
+
+
+
